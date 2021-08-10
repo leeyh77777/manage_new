@@ -9,17 +9,17 @@
 <div class="layout_width islogin">
     <a href='/health' class="health">
         H e a l t h</a>
-    <a href='/exercise' class="exercise">E x e r c i s e</a> 
+    <a href='/exercise' class="exercise">E x e r c i s e</a>
 </div>
 {% else %}
-    <div class="layout_width notlogin">
-        <a href='/member/join' class="index-login">J o i n</a> <br>
-        <a href='/member/login' class="index-login">L o g i n</a> 
-    </div>
+<div class="layout_width notlogin">
+    <a href='/member/join' class="index-login">J o i n</a> <br>
+    <a href='/member/login' class="index-login">L o g i n</a>
+</div>
 {% endif %}
 {% endblock %}
 {% block login%}
 {% if isLogin %}
-    <a href="/member/logout"><i class="xi-unlock-o logout_icon"></i></a>
+<a href="/member/logout"><i class="xi-unlock-o logout_icon"></i></a>
 {% endif %}
 {% endblock%}
