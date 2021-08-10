@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 15px;
+    background-color: #E3FDFD;
+}
+
+/* 로그아웃 박스 */
+.logout_box{
+    font-size: 1.1rem;
+    
+    color: gray;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
+.logout_box a{
+    text-decoration: none;
+    color: gray;
+    opacity: 0.5;
+}
+
+/* 메인 창 */
+.tit{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 100px;
+    border-bottom: 1px solid #71C9CE;
+    
+}
+
+.tit_text{    
+    font-family: "Bungee", cursive;
+    letter-spacing: -0.8px;
+    font-size: 5rem;
+    margin: 0;
+    background-image: url("https://images.unsplash.com/photo-1544021601-3e5723f9d333?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+    
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip:text;
+}
+.layout_width{
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.notlogin a{
+    font-family: "Bungee",cursive;
+   font-size: 2rem;
+   text-decoration: none;
+   display: inline-block;
+   margin-top: 50px;
+   width: 300px;
+   height: 150px;
+   line-height: 150px;  
+   border: 1px solid #121212;
+   background-color: rgb(220, 237, 248);
+   border-radius: 10px;   
+   color : #3aa0ee; 
+   opacity: 0.7;
+   
+}
+.layout_width a:hover{
+    color: blue;
+    opacity: 0.9;
+    background-color: black;
+}
+
+/* 회원 가입 및 로그인*/
+
+.join_box, .login_box{
+    text-align: left;
+    width: 500px;
+    height: 500px;
+    margin : 0 auto;
+}
+.layout_width h1{
+    text-align: left;
+    margin-left: 100px;
+    color: #71C9CE;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+dl{
+    margin-bottom: 20px;
+}
+dt{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #A6E3E9;
+    letter-spacing: -0.8px;
+}
+input[type="text"], input[type="password"]{
+    width: 220px;
+    height: 30px;
+    border: 1px solid #AEE1E1;
+    border-radius: 5px;
+}
+dd{
+    margin-left: 0;
+}
+dd, dt, input[type="submit"]{
+    margin-top: 15px;
+    margin-left: 100px;    
+}
+input[type="submit"]{
+    font-family: "Bungee", cursive;
+    color: slategrey;
+    font-size: 1.3rem;
+    background-color: #E3FDFD;
+    padding: 0 20px;
+    border-radius: 5px;
+}
+input[type="submit"]:hover{
+    color: white;
+    background-color: black;
+}
+/* islogin */
+.islogin a{
+    font-size: 3.5rem;
+    font-family: "Bungee", cursive;
+   text-decoration: none;
+   display: inline-block;
+   margin : 0 70px;
+   width: 400px;
+   height: 300px;
+   line-height: 300px;  
+   border: 1px solid #121212;
+   background-color: #FDF6F0;
+   border-radius: 10px;
+}
+.islogin .health{
+    color: green;
+    opacity: 0.4;
+}
+.islogin .health:hover{
+    color: green;
+    opacity: 1;
+}
+.islogin .exercise{
+    color : grey;
+    opacity: 0.6;
+}
+.islogin .exercise:hover{
+    color: gray;
+    opacity: 1;
+}
+
+/* 메인메뉴 가기 */
+
+footer .home_icon{
+    position: fixed;
+    bottom: 5%;
+    right: 3%;
+}
+footer .logout_icon{
+    position: fixed;
+    bottom: 12%;
+    right: 3%;
+}
+footer .home i{
+    font-size: 3.5rem;
+    color: black;
+    opacity: 0.3;
+}
+footer .home a:hover i{
+    opacity: 1;
+}
