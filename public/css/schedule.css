@@ -1,0 +1,127 @@
+.calendar {
+  margin: 3vmin;
+}
+
+.calendar .title {
+  margin-top: 0;
+  font-family: "Bungee", cursive;
+  text-align: center;
+  font-size: 5vmin;
+  color: #a6e3e9;
+}
+
+.calendar .navi {
+  text-align: center;
+  margin-bottom: 4vmin;
+}
+
+.calendar .current {
+  font-size: 4vmin;
+  margin: 0 2vmin;
+  color: #a6e3e9;
+}
+
+.navi a {
+  border-bottom: 0.2vmin solid #a6e3e9;
+  display: inline-block;
+  padding: 1vmin 3.5vmin;
+  color: #a6e3e9;
+}
+
+.navi a i {
+  font-size: 2vmin;
+  vertical-align: middle;
+  color: #a6e3e9;
+}
+
+.navi a:hover {
+  background-color: #a6e3e9;
+  color: #ffffff;
+}
+
+.navi a:hover i {
+  color: #ffffff;
+}
+
+.calendar .yoils li {
+  float: left;
+  width: calc(100% / 7);
+  text-align: center;
+  padding: 4vmin 0;
+  border: 0.5vmin solid #d5d5d5;
+  border-left: 0;
+  background-color: #a6e3e9;
+  color: white;
+}
+
+.calendar .yoils li:first-child {
+  border-left: 0.5vmin solid #d5d5d5;
+}
+
+.calendar .yoils:after {
+  content: "";
+  display: block;
+  clear: left;
+}
+
+.calendar .days li {
+  float: left;
+  width: calc(100% / 7);
+  height: 40vmin;
+  border-bottom: 0.5vmin solid #d5d5d5;
+  border-right: 0.5vmin solid #d5d5d5;
+  padding: 3vmin 0;
+}
+
+.calendar .days li:nth-child(7n + 1) {
+  border-left: 0.5vmin solid #d5d5d5;
+}
+
+.calendar .days:after {
+  content: "";
+  display: block;
+  clear: left;
+}
+
+.calendar .day {
+  width: 4vmin;
+  height: 7vmin;
+  border-bottom: 0.1vmin solid #a6e3e9;
+  text-align: center;
+  line-height: 8vmin;
+  margin-bottom: 1vmin;
+  color: #a6e3e9;
+}
+
+#layer_popup #layer_desc {
+  padding: 0 6.5vmin;
+}
+
+#layer_popup #layer_desc > dl {
+  vertical-align: middle;
+  margin: 0;
+}
+
+#layer_popup #layer_desc > dl > dt {
+  vertical-align: middle;
+  margin: 0;
+}
+
+#layer_popup #layer_desc > dl > dd {
+  margin: 0;
+}
+
+#layer_popup #layer_desc > dl > dd > .title {
+  width: 81vmin;
+  height: 5vmin;
+}
+
+#layer_popup #layer_desc > dl > dd > .desc {
+  width: 81vmin;
+  height: 36vmin;
+  margin-bottom: 1vmin;
+}
+
+#layer_popup #layer_desc > .button {
+  float: right;
+}
