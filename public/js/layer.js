@@ -52,16 +52,17 @@ const layer = {
 						`;
 
     $("#layer_desc > input").css({
-      padding: "15px",
+      padding: "0",
+      
     });
 
     $("#layer_popup")
       .css({
         position: "fixed",
-        top: top + "px",
-        left: left + "px",
-        width: width + "px",
-        height: height + "px",
+        top: "30vmin",
+        left: "15vmin",
+        width: "70vmin",
+        height: "60vmin",
         backgroundColor: "#ffffff",
         zIndex: 101,
         borderRadius: "10px",

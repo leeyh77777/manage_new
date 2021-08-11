@@ -7,8 +7,8 @@ const session = require("express-session");
 const path = require("path");
 const logger = require("./lib/logger");
 const bootStrap = require("./boot");
-
 /** 라우터 */
+
 const memberRouter = require("./routes/member");
 const mainRouter = require("./routes");
 const health_scheduleRouter = require("./routes/health_schedule");
@@ -47,8 +47,8 @@ app.use(bootStrap);
 /** 라우터 등록 */
 app.use(mainRouter);
 app.use("/member", memberRouter);
-app.use("/health_schedule", health_scheduleRouter);
-app.use("/exercise_schedule", exercise_scheduleRouter);
+app.use("/health", health_scheduleRouter);
+app.use("/exercise", exercise_scheduleRouter);
 
 /** 없는 페이지 라우터  */
 app.use((req, res, next) => {

@@ -37,8 +37,11 @@
     <footer>
 
         <div class="home">
-            {% block login %}
-            {% endblock %}
+            {% block login%}
+            {% if isLogin %}
+            <a href="/member/logout"><i class="xi-unlock-o logout_icon"></i></a>
+            {% endif %}
+            {% endblock%}
             <a href="/"><i class="xi-home-o home_icon"></i></a>
         </div>
     </footer>

@@ -67,7 +67,7 @@
 .calendar .days li {
   float: left;
   width: calc(100% / 7);
-  height: 40vmin;
+  height: 12vmin;
   border-bottom: 0.5vmin solid #d5d5d5;
   border-right: 0.5vmin solid #d5d5d5;
   padding: 3vmin 0;
@@ -112,12 +112,12 @@
 }
 
 #layer_popup #layer_desc > dl > dd > .title {
-  width: 81vmin;
+  width: 60vmin;
   height: 5vmin;
 }
 
 #layer_popup #layer_desc > dl > dd > .desc {
-  width: 81vmin;
+  width: 60vmin;
   height: 36vmin;
   margin-bottom: 1vmin;
 }
