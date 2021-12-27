@@ -23,8 +23,7 @@ res.header("Access-Control-Allow-Headers", "*");
 1. route등록 : [/member](https://github.com/leeyh77777/FanSite/blob/main/fansite_server/app.js#L39)(app.use로 라우터 등록)
 
 2. route mode 설정 : [/routes/member.js](https://github.com/leeyh77777/FanSite/blob/main/fansite_server/routes/member.js)
-
-: mode로 요청이 들어오면 switch case로 해당 모드 선택후 실행
+(mode로 요청이 들어오면 switch case로 해당 모드 선택후 실행)
 
 * [join](https://github.com/leeyh77777/FanSite/blob/main/fansite_server/routes/member.js#L13) (회원가입 처리)
 : models/member의 join(data) 메서드를 실행, 완료시 값을 json으로 반환
@@ -39,8 +38,7 @@ res.header("Access-Control-Allow-Headers", "*");
 : models/member의 getByToken(data.token) 메서드를 실행, 완료시 값을 json으로 반환
 
 3. route 로직 [/models/member.js](https://github.com/leeyh77777/FanSite/blob/main/fansite_server/models/member.js)
-
-:DB(Mysql) 연동
+(DB(Mysql) 연동)
 
 * [join(data)](https://github.com/leeyh77777/FanSite/blob/main/fansite_server/models/member.js#L14) (회원가입 로직)
 ```
@@ -85,22 +83,21 @@ sequelize로 join()은 memberNo , login()은 memberId로 Mysql 회원정보 조�
 1. route등록 : [/member](https://github.com/leeyh77777/FanSite/blob/main/fansite_server/app.js#L40)(app.use로 라우터 등록)
 
 2. route mode 설정 : [/routes/member.js](https://github.com/leeyh77777/FanSite/blob/main/fansite_server/routes/news.js)
+(mode로 요청이 들어오면 switch case로 해당 모드 선택후 실행)
 
-: mode로 요청이 들어오면 switch case로 해당 모드 선택후 실행
-
-* [add](https://github.com/leeyh77777/FanSite/blob/main/fansite_server/routes/news.js#L13) (뉴스추가))
+* [add](https://github.com/leeyh77777/FanSite/blob/main/fansite_server/routes/news.js#L13) (뉴스추가)
 : models/news의 addNews(data) 메서드를 실행, 완료시 값을 json으로 반환
 
-* [add](https://github.com/leeyh77777/FanSite/blob/main/fansite_server/routes/news.js#L13) (뉴스추가))
+* [add](https://github.com/leeyh77777/FanSite/blob/main/fansite_server/routes/news.js#L13) (뉴스추가)
 : models/news의 addNews(data) 메서드를 실행, 완료시 값을 json으로 반환
 
-* [add](https://github.com/leeyh77777/FanSite/blob/main/fansite_server/routes/news.js#L13) (뉴스추가))
+* [add](https://github.com/leeyh77777/FanSite/blob/main/fansite_server/routes/news.js#L13) (뉴스추가)
 : models/news의 addNews(data) 메서드를 실행, 완료시 값을 json으로 반환
 
-* [add](https://github.com/leeyh77777/FanSite/blob/main/fansite_server/routes/news.js#L13) (뉴스추가))
+* [add](https://github.com/leeyh77777/FanSite/blob/main/fansite_server/routes/news.js#L13) (뉴스추가)
 : models/news의 addNews(data) 메서드를 실행, 완료시 값을 json으로 반환
 
-* [add](https://github.com/leeyh77777/FanSite/blob/main/fansite_server/routes/news.js#L13) (뉴스추가))
+* [add](https://github.com/leeyh77777/FanSite/blob/main/fansite_server/routes/news.js#L13) (뉴스추가)
 : models/news의 addNews(data) 메서드를 실행, 완료시 값을 json으로 반환
 
 :three: '/board'
